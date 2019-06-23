@@ -2,7 +2,7 @@
 
 Initially, ansi2html was the solution and while it is really nice, a fixed-width/mono-spaced font was needed so things like logs would line up. Unfortunately, the html defaulted to a variable-width font and no obvious way to change.
 
-After some searching I discovered that Vim comes bundled with yet another plug-in, [2html](https://github.com/vim/vim/blob/master/runtime/syntax/2html.vim).vim, invoked via [:TOhtml](http://vimdoc.sourceforge.net/htmldoc/syntax.html#:TOhtml):. 
+After some searching I discovered that Vim comes bundled with yet another plug-in, [2html](https://github.com/vim/vim/blob/master/runtime/syntax/2html.vim).vim, invoked via [:TOhtml](http://vimdoc.sourceforge.net/htmldoc/syntax.html#:TOhtml):.
 
 These bash scripts will invoke Vim and 2html.vim for 2 use-cases:
 
@@ -15,6 +15,7 @@ $ vanis2html foo.txt
 
 This would create foo.txt.html in the same directory. Use this to convert ANSI color escape codes to html.
 
+**Bonus:**
 2. **vsyntax2html**
 ```
 Usage:
