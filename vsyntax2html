@@ -9,4 +9,7 @@ then
 fi
 
 vim $1 -s <(echo -e ":set nu&\n:syntax on\n:TOhtml\n:w! $1.html\n:qa!")
-echo "Creating $1.html"
+
+echo ""
+echo "Created $1.html"
+echo ""
