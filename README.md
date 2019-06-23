@@ -1,4 +1,4 @@
-The problem: how to convert an ASCII file, with color escapes, to html from the Linux/\*nix cli. Initially, ansi2html was the sulution and while it is really nice, a fixed-width/monospaced font was needed so things like logs would line up. Unfortunately, the html defaulted to a variable-width font and no obviuous way to change.
+**The problem:** how to convert an ASCII file, with color escapes, to html from the Linux/\*nix cli. Initially, ansi2html was the sulution and while it is really nice, a fixed-width/monospaced font was needed so things like logs would line up. Unfortunately, the html defaulted to a variable-width font and no obviuous way to change.
 
 After a quick search I discovered that Vim comes bundled with yet another plug-in, [2html](https://github.com/vim/vim/blob/master/runtime/syntax/2html.vim).vim, invoked via [:TOhtml](http://vimdoc.sourceforge.net/htmldoc/syntax.html#:TOhtml):. 
 
