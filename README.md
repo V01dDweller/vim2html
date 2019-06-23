@@ -6,19 +6,23 @@ After some searching I discovered that Vim comes bundled with yet another plug-i
 
 **Note:** This won't work without first installing [:AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302).
 
-These bash scripts will invoke Vim and 2html.vim for 2 use-cases:
+**Installation**
 
-1. **vansi2html**
+Copy these to a directory in your PATH. e.g. ~/bin, $HOME/bin, etc.
+
+**Examples:**
+
+1. **vansi2html** - Converting ANSI with color escapes:
 ```
 Usage:
 
 $ vanis2html foo.txt
 ```
 
-This would create foo.txt.html in the same directory. Use this to convert ANSI color escape codes to html.
+This would create `foo.txt.html` in the same directory.
 
 **Bonus:**
-2. **vsyntax2html**
+2. **vsyntax2html** - Convert syntax highlighting to html:
 ```
 Usage:
 
