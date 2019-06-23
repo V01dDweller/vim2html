@@ -16,25 +16,19 @@ It just so happens that Vim comes bundled with a  plug-in, [2html.vim](https://g
 
 Copy these to a directory in your PATH. e.g. ~/bin, $HOME/bin, etc.
 
-**Examples:**
+**Usage:**
 
 1. **vansi2html** - Converting ANSI with color escapes:
 ```
-Usage:
-
 $ vanis2html foo.txt
 
 Created foo.txt.html
-
 ```
 
 **Bonus:**
 2. **vsyntax2html** - Convert syntax highlighting to html:
 ```
-Usage:
-
 $ vsyntax2html foo.java
 
 Created foo.java.html
-
 ```
