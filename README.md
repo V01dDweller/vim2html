@@ -1,4 +1,4 @@
-**The problem:** How to quickly convert an ASCII file with color escapes to html from the Linux/\*nix cli or in bash scripts.
+**The problem:** How to quickly convert an ASCII file with color escapes to html via the cli or bash scripts.
 
 Initially, [ansi2html](https://pypi.org/project/ansi2html/) was the solution and while it is really well done, a fixed-width/mono-spaced font was needed so things like logs, tables or reports would line up. Unfortunately, html renders by default with a variable-width font and ansi2html has no obvious way to change it.
 
