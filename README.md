@@ -2,7 +2,7 @@
 
 Initially, ansi2html was the solution and while it is really nice, a fixed-width/mono-spaced font was needed so things like logs, tables or reports would line up. Unfortunately, the html used a variable-width font and no obvious way to change it.
 
-After some searching I discovered that Vim comes bundled with yet another plug-in, [2html](https://github.com/vim/vim/blob/master/runtime/syntax/2html.vim).vim, invoked via [:TOhtml](http://vimdoc.sourceforge.net/htmldoc/syntax.html#:TOhtml): and in combination with the [AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302) plugin would do the trick.
+It turns out that Vim comes bundled with yet another plug-in, [2html](https://github.com/vim/vim/blob/master/runtime/syntax/2html.vim).vim, invoked via [:TOhtml](http://vimdoc.sourceforge.net/htmldoc/syntax.html#:TOhtml): and in combination with the [AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302) plugin would do the trick.
 
 **Note:** This won't work without first installing [:AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302).
 
