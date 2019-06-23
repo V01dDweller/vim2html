@@ -1,8 +1,8 @@
-I was googling for the solution of a problem: how to convert and ASCII report, with color, to html from the Linux/\*nix cli. Initially pip-installed ansi2html and tried that and it's really nice, except that I need a fixed-width/monospaced font so things would line up and ansi2html gave me a variable-width font with no options to change that.
+The problem: how to convert an ASCII file, with color escapes, to html from the Linux/\*nix cli. Initially, ansi2html was the sulution and while it is really nice, a fixed-width/monospaced font was needed so things like logs would line up. Unfortunately, the html defaulted to a variable-width font and no obviuous way to change.
 
-After a quick search I discovered that Vim comes bundled with yet another plug-in, 2html, invoked via `:TOhtml`. 
+After a quick search I discovered that Vim comes bundled with yet another plug-in, [2html](https://github.com/vim/vim/blob/master/runtime/syntax/2html.vim).vim, invoked via [:TOhtml](http://vimdoc.sourceforge.net/htmldoc/syntax.html#:TOhtml):. 
 
-These bash scripts will invoke Vim and 2html for 2 use-cases:
+These bash scripts will invoke Vim and 2html.vim for 2 use-cases:
 
 1. **vansi2html**
 ```
