@@ -4,7 +4,7 @@
 
 Initially, [ansi2html](https://pypi.org/project/ansi2html/) was the solution and, while it is really well done, a fixed-width/mono-spaced font was needed so things like logs, tables or reports would line up. Unfortunately, most browsers render html with a variable-width font by default and ansi2html has no obvious way to change that.
 
-Fortunately, Vim comes bundled with a  plug-in, [2html.vim](https://github.com/vim/vim/blob/master/runtime/syntax/2html.vim), (See the [TOhtml](http://vimdoc.sourceforge.net/htmldoc/syntax.html#:TOhtml) command) which generates html with a fixed width by using `<PRE>`. When combined with [AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302) - another plug-in that is not bundled with Vim - and a tiny bash script, it solves the problem nicely.
+Fortunately, Vim comes bundled with a  plug-in, [2html.vim](https://github.com/vim/vim/blob/master/runtime/syntax/2html.vim), (See the [TOhtml](http://vimdoc.sourceforge.net/htmldoc/syntax.html#:TOhtml) command) which uses `<PRE>`. When combined with [AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302) - another plug-in that is not bundled with Vim - and a tiny bash script, it solves the problem nicely.
 
 **This will overwrite files without warning, use at your own risk!**
 
