@@ -3,9 +3,10 @@
 if [ -z $1 ]
 then
   echo "Usage: "
+  echo ""
   echo " vansi2html filename"
   echo ""
 fi
 
 vim -c "let g:html_no_progress=1" $1 -s <(echo -e ":AnsiEsc\n:TOhtml\ngg=G:w! $1.html\n:qa!")
-cygstart  $1.html
+echo "Creating $1.html"
