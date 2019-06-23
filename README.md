@@ -22,7 +22,7 @@ Fortunately, Vim comes bundled with a  plug-in, [2html.vim](https://github.com/v
     Created foo.txt.html
     ```
 
-**Bonus:**
+
 2. **vsyntax2html** - Save Vim's syntax highlighted output to html:
     ```
     $ vsyntax2html foo.java
