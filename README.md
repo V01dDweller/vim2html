@@ -1,8 +1,8 @@
 **The problem:** How to quickly convert an ASCII file with color escapes to html from the Linux/\*nix cli or in bash scripts.
 
-Initially, ansi2html was the solution and while it is really nice, a fixed-width/mono-spaced font was needed so things like logs, tables or reports would line up. Unfortunately, the html used a variable-width font and no obvious way to change it.
+Initially, [ansi2html](https://pypi.org/project/ansi2html/) was the solution and while it is really well done, a fixed-width/mono-spaced font was needed so things like logs, tables or reports would line up. Unfortunately, let alone htmlrenders with a variable-width font and no obvious way to change it without tweaking the output.
 
-It turns out that Vim comes bundled with yet another plug-in, [2html](https://github.com/vim/vim/blob/master/runtime/syntax/2html.vim).vim, (See the [:TOhtml](http://vimdoc.sourceforge.net/htmldoc/syntax.html#:TOhtml) command) which, when combined with [AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302) and a bash script, solves the problem.
+It just so happens that Vim comes bundled with a  plug-in, [2html](https://github.com/vim/vim/blob/master/runtime/syntax/2html.vim).vim, (See the [:TOhtml](http://vimdoc.sourceforge.net/htmldoc/syntax.html#:TOhtml) command) which, in combination with [AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302) and a bash script, solves the problem nicely.
 
 **Note:** This won't work without first installing [:AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302).
 
@@ -17,9 +17,10 @@ Copy these to a directory in your PATH. e.g. ~/bin, $HOME/bin, etc.
 Usage:
 
 $ vanis2html foo.txt
-```
 
-This would create `foo.txt.html` in the same directory.
+Created foo.txt.html
+
+```
 
 **Bonus:**
 2. **vsyntax2html** - Convert syntax highlighting to html:
@@ -27,6 +28,7 @@ This would create `foo.txt.html` in the same directory.
 Usage:
 
 $ vsyntax2html foo.java
-```
 
-This would create foo.java.html in the same directory. Use this to get syntax syntax highlighting converted to html.
+Created foo.java.html
+
+```
