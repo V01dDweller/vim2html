@@ -16,16 +16,16 @@ Fortunately, Vim comes bundled with a  plug-in, [2html.vim](https://github.com/v
 **Usage:**
 
 1. **vansi2html** - Converting ANSI with color escapes:
-```
-$ vanis2html foo.txt
-
-Created foo.txt.html
-```
+    ```
+    $ vanis2html foo.txt
+    
+    Created foo.txt.html
+    ```
 
 **Bonus:**
 2. **vsyntax2html** - Save Vim's syntax highlighted output to html:
-```
-$ vsyntax2html foo.java
-
-Created foo.java.html
-```
+    ```
+    $ vsyntax2html foo.java
+    
+    Created foo.java.html
+    ```
