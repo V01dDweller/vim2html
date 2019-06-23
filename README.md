@@ -8,13 +8,10 @@ Fortunately, Vim comes bundled with a  plug-in, [2html.vim](https://github.com/v
 
 **This will overwrite files without warning, use at your own risk!**
 
-**Prequisite:** [AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302).
-
-
-
 **Installation**
 
-Copy these to a directory in your PATH. e.g. ~/bin, $HOME/bin, etc.
+1. Install [AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302)
+2. Copy these to a directory in your PATH. e.g. ~/bin, $HOME/bin, etc..
 
 **Usage:**
 
