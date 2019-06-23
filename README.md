@@ -6,7 +6,7 @@ It just so happens that Vim comes bundled with a  plug-in, [2html](https://githu
 
 **Note:** Consecutive runs will overwrite files!
 
-**Note:** This won't work without first installing [:AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302).
+**Note:** This won't work without first installing [AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302).
 
 
 
