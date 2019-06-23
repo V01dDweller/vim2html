@@ -1,10 +1,12 @@
-**The problem:** How to quickly convert an ASCII file with color escapes to html via the cli or bash scripts.
+# vim2html #
+
+**The problem:** Quickly converting an ASCII file with color escapes to html via the cli or bash scripts.
 
 Initially, [ansi2html](https://pypi.org/project/ansi2html/) was the solution and while it is really well done, a fixed-width/mono-spaced font was needed so things like logs, tables or reports would line up. Unfortunately, html renders by default with a variable-width font and ansi2html has no obvious way to change it.
 
 It just so happens that Vim comes bundled with a  plug-in, [2html.vim](https://github.com/vim/vim/blob/master/runtime/syntax/2html.vim), (See the [:TOhtml](http://vimdoc.sourceforge.net/htmldoc/syntax.html#:TOhtml) command) which always generates html with a fixed width by using `<PRE>`. When combined with [AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302) in a tiny bash script it solves the problem nicely.
 
-**Note:** Consecutive runs will overwrite files!
+**Warning!:** Consecutive runs will overwrite files, use at your own risk.
 
 **Note:** This won't work without first installing [AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302).
 
