@@ -26,7 +26,7 @@ Created foo.txt.html
 ```
 
 **Bonus:**
-2. **vsyntax2html** - Convert syntax highlighting to html:
+2. **vsyntax2html** - Save Vim's syntax highlighted output to html:
 ```
 $ vsyntax2html foo.java
 
