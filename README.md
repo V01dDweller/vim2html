@@ -6,7 +6,7 @@ Initially, [ansi2html](https://pypi.org/project/ansi2html/) was the solution and
 
 It just so happens that Vim comes bundled with a  plug-in, [2html.vim](https://github.com/vim/vim/blob/master/runtime/syntax/2html.vim), (See the [:TOhtml](http://vimdoc.sourceforge.net/htmldoc/syntax.html#:TOhtml) command) which always generates html with a fixed width by using `<PRE>`. When combined with [AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302) in a tiny bash script it solves the problem nicely.
 
-**This will overwrite files without warning, use at your own risk.**
+**This will overwrite files without warning, use at your own risk!**
 
 **Note:** This won't work without first installing [AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302).
 
