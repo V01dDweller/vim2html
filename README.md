@@ -8,7 +8,7 @@ It just so happens that Vim comes bundled with a  plug-in, [2html.vim](https://g
 
 **This will overwrite files without warning, use at your own risk!**
 
-**Note:** This won't work without first installing [AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302).
+**Prequisite:** [AnsiEsc](https://www.vim.org/scripts/script.php?script_id=302).
 
 
 
