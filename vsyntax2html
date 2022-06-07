@@ -8,7 +8,7 @@ then
   echo ""
 fi
 
-vim $1 -s <(echo -e ":set nu&\n:syntax on\n:TOhtml\n:w! $1.html\n:qa!")
+vim $1 -s <(echo -e ":color elflord\n:set background=light nu\n:syntax on\n:TOhtml\n:w! $1.html\n:qa!")
 
 echo ""
 echo "Created $1.html"
