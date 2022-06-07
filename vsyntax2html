@@ -4,7 +4,7 @@ if [ -z $1 ]
 then
   echo "Usage: "
   echo ""
-  echo "vansi2html filename"
+  echo "vsyntax2html filename"
   echo ""
 fi
 
